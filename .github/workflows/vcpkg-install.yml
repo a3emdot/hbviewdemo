@@ -39,8 +39,7 @@ jobs:
     - name: Checkout vcpkg
       uses: actions/checkout@v4
       with:
-        repository: a3emdot/vcpkg
-        ref: harfbuzz-build-hb-view
+        repository: microsoft/vcpkg
         path: vcpkg
 
     - name: Bootstrap vcpkg
