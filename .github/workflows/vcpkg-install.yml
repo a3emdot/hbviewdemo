@@ -60,7 +60,7 @@ jobs:
       shell: pwsh
       run: |
         dir
-        cmd.exe /c hbviewviewdemo.bat
+        cmd.exe /c hbviewdemo.bat
 
     - name: Archive VCPKG Log Files
       if: always()
